@@ -1,6 +1,60 @@
-#top{
-    position: fixed;
-    bottom : 10px;
-    right: -100px;
-    opacity: 0.5;
+body{
+    margin: 0;
+    background-color: #23263a;
 }
+
+.navbar {
+    height: 60px;
+    width: 100vw;
+    background-color: #1b1d29;    
+    text-align: center;
+
+
+} 
+a { 
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Brush Script MT', cursive;
+}
+
+ul {
+    height: 60px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+li:hover{
+    background-color: #23263a;
+}
+
+
+
+p {
+    margin: 0;
+}
+
+.top {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #1b1d29;    
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: grid;
+    place-items: center;
+ }
+
+ /* ----------------------------------------------------------------------------*/
+
+ 
