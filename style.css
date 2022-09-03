@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "KanitBold";
+    src: url('assets/fonts/Kanit-Bold.ttf');
+  
+}
+
 body{
     margin: 0;
     background-color: #23263a;
@@ -56,5 +62,90 @@ p {
  }
 
  /* ----------------------------------------------------------------------------*/
+
+ .Main{
+    margin: 0;
+ }
+
+ /*-------------------------------------------*/
+.About{
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+}
+
+ .About h2{
+    text-align: center;
+    margin: 0;
+    font-family: "KanitBold";
+    font-size: 50px;
+    color: white;
+ }
+
+ .About p{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: "KanitBold";
+    color: white;
+ }
+ 
+ .About a{
+    text-align: center;
+    margin: 0;
+    word-spacing: 50px;
+
+ }
+
+ /* ------------------------------------------------------*/
+
+ .myvideo{
+    width: 100vw;
+    display: grid;
+    place-items: center;
+ }
+
+ .Work h2{
+    text-align: center;
+    margin: 0;
+    font-family: "KanitBold";
+    font-size: 50px;
+    color: white;
+ }
+
+ .Work p{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: "KanitBold";
+    color: white;
+ }
+
+ /*------------------------------------*/
+
+ .Resume h2{
+    text-align: center;
+    margin: 0;
+    font-family: "KanitBold";
+    font-size: 50px;
+    color: white;
+ }
+
+ .Resume p{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: "KanitBold";
+    color: white;
+ }
+
+ /*------------------------------------*/
+ .Contact h2{
+    text-align: center;
+    margin: 0;
+    font-family: "KanitBold";
+    font-size: 50px;
+    color: white;
+ }
 
  
