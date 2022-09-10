@@ -1,151 +1,195 @@
 @font-face {
-    font-family: "KanitBold";
-    src: url('assets/fonts/Kanit-Bold.ttf');
-  
+   font-family: "KanitBold";
+   src: url('assets/fonts/Kanit-Bold.ttf');
 }
+
 
 body{
-    margin: 0;
-    background-color: #23263a;
+   background-color: #1F2335;
+   margin: 0;
+   overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+   display: none;
+ }
+
+.navbar{
+   background-color: #1F2335;
+   width: 100vw;
+   height: 64px;
+   margin: 0;
+   display: grid;
+   place-items: center;
+   
+}
+nav{
+   display: flex;
 }
 
-.navbar {
-    height: 60px;
-    width: 100vw;
-    background-color: #1b1d29;    
-    text-align: center;
-
-
-} 
-a { 
-    color: yellow;
-    text-align: center;
-    text-decoration: none;
-    color: #ffff;
-    font-family: 'Brush Script MT', cursive;
+nav i {
+   color: red;
+   font-size: 30px;
+   margin-top: 16px;
+   
+   position: absolute;
 }
 
-ul {
-    height: 60px;
-    margin: 0;
-    display: flex;
-    align-items: center;
+.navli a{
+   color: yellow;
+   text-align: center;
+   text-decoration: none;
+   color: #ffff;
+   font-family: 'Brush Script MT', cursive;
+   font-size: 20px;
 }
 
-li {
-    
-    border-radius: 10px;
-    margin: 0;
-    padding: 10px;
-    list-style: none;
-}
-li:hover{
-    background-color: #23263a;
+.navul{
+   height: 60px;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   
 }
 
-
-
-p {
-    margin: 0;
+.navli{
+   border-radius: 10px;
+   margin: 0;
+   padding: 10px;
+   list-style: none;
+}
+li{
+   list-style: none;
 }
 
-.top {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: #1b1d29;    
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    display: grid;
-    place-items: center;
- }
-
- /* ----------------------------------------------------------------------------*/
-
- .Main{
-    margin: 0;
- }
-
- /*-------------------------------------------*/
-.About{
-    width: 100vw;
-    margin: 0;
-    text-align: center;
+.navli:hover{
+   background-color: #23263a;
 }
 
- .About h2{
-    text-align: center;
-    margin: 0;
-    font-family: "KanitBold";
-    font-size: 50px;
-    color: white;
- }
+/*------------------------------------------------*/
 
- .About p{
-    text-align: center;
-    margin: 0;
-    font-size: 20px;
-    font-family: "KanitBold";
-    color: white;
- }
- 
- .About a{
-    text-align: center;
-    margin: 0;
-    word-spacing: 50px;
+.ho{
+   height: 80vh;
+   width: 100vw;
+   background-color: #23263a;
+}
 
- }
+.socials{
+   width: 30%;
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+}
 
- /* ------------------------------------------------------*/
+i{
+   color: #ffff;
+   font-size: 18px;
+}
 
- .myvideo{
-    width: 100vw;
-    display: grid;
-    place-items: center;
- }
+.so-li{
+   list-style: none;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   border: 3px solid red;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   transition: 0.3s;
+}
 
- .Work h2{
-    text-align: center;
-    margin: 0;
-    font-family: "KanitBold";
-    font-size: 50px;
-    color: white;
- }
+.so-li:hover{
+   background-color: red;
+   transform: scale(1.2)
+}
 
- .Work p{
-    text-align: center;
-    margin: 0;
-    font-size: 20px;
-    font-family: "KanitBold";
-    color: white;
- }
+.socia a{
+text-decoration: none;
+padding-left: 32.5%;
+}
 
- /*------------------------------------*/
+.home-left h1{
+   color: white;
+   margin-left: 40px;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 40px;
+}
+.home-left p{
+   color: gray;
+   margin-left: 40px;
+   font-size: 20px;
+   font-family: 'Courier New', Courier, monospace;
 
- .Resume h2{
-    text-align: center;
-    margin: 0;
-    font-family: "KanitBold";
-    font-size: 50px;
-    color: white;
- }
+}
 
- .Resume p{
-    text-align: center;
-    margin: 0;
-    font-size: 20px;
-    font-family: "KanitBold";
-    color: white;
- }
+.first{
+   margin: 0;
+   padding-left: 800px;
+   margin-top: -280px;
+}
 
- /*------------------------------------*/
- .Contact h2{
-    text-align: center;
-    margin: 0;
-    font-family: "KanitBold";
-    font-size: 50px;
-    color: white;
- }
+/*----------------------------------------------------------------------------*/
 
- 
+.se{
+   margin: 0;
+   text-align: center;
+}
+
+h5{
+   color: red;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+hr{
+   width: 100px;
+   border-color: red;
+}
+
+.grid-container{
+   width: fit-content;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 200px 200px 200px;
+   gap: 10px;
+   padding: 10px;
+}
+
+.grid-container > div {
+   background-color: #23263a;
+   border: 1px solid #23263a;
+   text-align: center;
+   font-size: 30px;
+}
+
+.grid-container > div > i{
+   color: red;
+   font-size: 40px;
+   padding: 15px;
+}
+
+.grid-container > div > h3{
+   font-size: 30px;
+}
+
+.grid-container > div > p{
+   font-size: 20px;
+   color: grey;
+}
+
+/*-------------------------------------------------------*/
+
+.blog-ai {
+   width: 700px;
+   height: 550px;
+   border-radius: 10px;
+}
+
+.blog-ai img{
+   width: 100%;
+   height: 60%;
+   object-fit: cover;
+}
